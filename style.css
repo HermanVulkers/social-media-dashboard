@@ -317,3 +317,52 @@ header {
   }
   
   /*--------- END --------*/
+
+body.dark {
+	background-color: hsl(230, 18%, 13%);
+}
+
+body.dark h3 {
+	color: white;
+}
+
+body.dark h2 {
+	color: white;
+}
+
+body.dark #followers {
+	color: rgb(116, 110, 155);
+}
+
+body.dark .statistic {
+	background-color: hsl(228, 28%, 20%);
+}
+
+body.dark .followers-sm {
+	background-color: hsl(228, 28%, 20%);
+}
+
+body.dark .followers-number {
+	color: white;
+}
+
+body.dark .bottom-left {
+	color: white;
+}
+
+body.dark .handle {
+	color: hsl(228, 34%, 66%)
+}
+
+body.dark .followers-word {
+	color: hsl(228, 34%, 66%)
+}
+
+body.dark .top-left {
+	color: hsl(228, 34%, 66%)
+}
+
+body.dark header {
+	background-color: hsl(232, 19%, 15%);
+}
+
