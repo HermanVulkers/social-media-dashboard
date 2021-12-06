@@ -49,7 +49,6 @@ header {
 	color: rgb(116, 110, 155);
 	font-weight: 700;
 	margin-right: 10px;
-
 }
 
 #followers-grid div {
@@ -128,10 +127,6 @@ header {
 	border-top: 4px solid hsl(203, 89%, 53%);
 }
 
-.instagram {
-	border-top: 4px solid hsl(12, 100%, 63%);
-}
-
 .youtube {
 	border-top: 4px solid hsl(348, 97%, 39%);
 }
@@ -165,7 +160,7 @@ header {
 	.headercontainer {
 		display: flex;
 		flex-direction: column;
-		align-items:stretch
+		align-items: stretch;
 	}
 	#dark-mode {
 		display: flex;
@@ -229,35 +224,48 @@ header {
 	text-align: end;
 }
 
+.negative {
+	color: red;
+}
+
+
+
 .arrow {
+	
+}
+
+.up {
 	border: solid darkgrey;
 	border-width: 0 2px 2px 0;
 	display: inline-block;
 	padding: 2px;
 	margin: 0 5px;
-}
-
-.up {
 	transform: rotate(-135deg);
 	-webkit-transform: rotate(-135deg);
 }
 
 .down {
+	border: solid red;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 2px;
+	margin: 0 5px;
 	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 }
-
 
 .switch {
 	position: relative;
 	display: inline-block;
 	width: 90px;
 	height: 34px;
-  }
-  
-  .switch input {display:none;}
-  
-  .slider {
+}
+
+.switch input {
+	display: none;
+}
+
+.slider {
 	position: absolute;
 	cursor: pointer;
 	top: 0;
@@ -265,12 +273,12 @@ header {
 	right: 0;
 	bottom: 0;
 	background-color: #a8a8a8;
-	-webkit-transition: .4s;
-	transition: .4s;
-	 border-radius: 34px;
-  }
-  
-  .slider:before {
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	border-radius: 34px;
+}
+
+.slider:before {
 	position: absolute;
 	content: "";
 	height: 26px;
@@ -278,45 +286,43 @@ header {
 	left: 4px;
 	bottom: 4px;
 	background-color: white;
-	-webkit-transition: .4s;
-	transition: .4s;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
 	border-radius: 50%;
-  }
-  
-  input:checked + .slider {
-	background-color: #2ab934;
-  }
-  
-  input:focus + .slider {
-	box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked + .slider {
+	background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
 	-webkit-transform: translateX(26px);
 	-ms-transform: translateX(26px);
 	transform: translateX(55px);
-  }
-  
-  /*------ ADDED CSS ---------*/
-  .slider:after
-  {
-   content:'OFF';
-   color: white;
-   display: block;
-   position: absolute;
-   transform: translate(-50%,-50%);
-   top: 50%;
-   left: 50%;
-   font-size: 10px;
-   font-family: Verdana, sans-serif;
-  }
-  
-  input:checked + .slider:after
-  {  
-	content:'ON';
-  }
-  
-  /*--------- END --------*/
+}
+
+/*------ ADDED CSS ---------*/
+.slider:after {
+	content: "OFF";
+	color: white;
+	display: block;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	font-size: 10px;
+	font-family: Verdana, sans-serif;
+}
+
+input:checked + .slider:after {
+	content: "ON";
+}
+
+/*--------- END --------*/
 
 body.dark {
 	background-color: hsl(230, 18%, 13%);
@@ -351,18 +357,24 @@ body.dark .bottom-left {
 }
 
 body.dark .handle {
-	color: hsl(228, 34%, 66%)
+	color: hsl(228, 34%, 66%);
 }
 
 body.dark .followers-word {
-	color: hsl(228, 34%, 66%)
+	color: hsl(228, 34%, 66%);
 }
 
 body.dark .top-left {
-	color: hsl(228, 34%, 66%)
+	color: hsl(228, 34%, 66%);
 }
 
 body.dark header {
 	background-color: hsl(232, 19%, 15%);
 }
+
+.instagram-border-wrap {
+	background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+	border-radius: 4%;
+	padding-top: 4px;
+  }
 
