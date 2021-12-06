@@ -49,10 +49,7 @@ Through building this dashboard, I got a more solid understanding of the differe
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS Tricks - Gradient Borders in CSS](https://css-tricks.com/gradient-borders-in-css/) - This helped me by showing me a wrapper trick that can be used to give 'borders' a gradient, otherwise impossible to do with CSS in the normal way, using border: ...
 
 ## Author
 
@@ -61,6 +58,4 @@ Through building this dashboard, I got a more solid understanding of the differe
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
